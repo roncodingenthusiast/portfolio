@@ -71,6 +71,9 @@ body{
 	color: black;
 	background-color: white;
 }
+#css-resume{
+	margin-bottom: 10px;
+}
 #resume{
 	min-height: 100%;
 	background: url('img/winter.jpg') no-repeat;
