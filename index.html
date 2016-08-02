@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body style="background: url('img/102H.jpg') 0% 0% / 100% 100% no-repeat;">
 	<div class="container-fluid" id="page">
@@ -82,7 +82,7 @@
 				</div>
 				<div class="col-sm-12"></div>
 			</div><!--end of landing-div-->
-			<div class="row" id="css-resume" style="background-color: black; font-family:  monospace, monospace;font-size:13px;">
+			<!--<div class="row" id="css-resume" style="background-color: black; font-family:  monospace, monospace;font-size:13px;">
 				<div id="rscss-intro" style="color: grey;">
 					&nbsp/**<br>
 					&nbsp * The Resume of the Coding Enthusiast<br>
@@ -129,7 +129,7 @@
 					}<br/>
 				</div>
 					
-			</div>
+			</div>-->
 			<div class="row" id="projects">
 				<h1 class="text-center title-projects">PORTFOLIO</h1>
 			    <div class="col-sm-12">
@@ -206,23 +206,5 @@
 		<a href="#landing-div" class="text-center center-block"> <i class="fa fa-arrow-up"></i> back to top</a>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-		<script type="text/javascript">
-			$(document).ready(function(){
-
-				var scroll_begin = 0;
-				var projects = $('#projects');
-				var offset = projects.offset();
-				if(projects.length){
-					$(document).scroll(function(){
-						scroll_begin = $(this).scrollTop();
-						if(scroll_begin > offset.top){
-							$('.navbar').css('background-color', 'black');
-						}else{
-							$('.navbar').css('background-color', 'black');
-						}
-					}); 
-				}
-			});
-		</script>
 </body>
 </html>
