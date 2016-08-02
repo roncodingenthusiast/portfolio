@@ -1,6 +1,5 @@
 body{
 	padding-top: 65px;
-	background-color: blue;
 }
 .title-projects{
 	font-size: 40px,
@@ -105,18 +104,8 @@ body{
 	-o-transition: margin 0.2s ease-out;
 	transition: margin 0.2s ease-out;
 }
-/*#page{
-    display:none;
-}*/
 #loading{
     display:block;
     height: 100%;
     width: 100%;
 }
-/*@font-face {
-	font-family: 'Abril Fatface Regular';
-		src: url('font/AbrilFatface-Regular.otf');
-		src: url('font/BRUSHSCI.TTF') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}*/
