@@ -69,7 +69,7 @@ body{
 }
 #resume{
 	min-height: 100%;
-	background: url('./img/winter.jpg') no-repeat;
+	/*background: url('../img/winter.jpg') no-repeat;*/
 	background-size: 100% 100%;
 	margin-bottom: 10px;
 	padding-top: 40px;
@@ -77,7 +77,7 @@ body{
 }
 #projects{
 	min-height: 100%;
-	background: url('./img/iphone.jpg') no-repeat;
+	background: url('../img/iphone.jpg') no-repeat;
 	background-size: 100% 100%;
 	margin-bottom: 10px;
 	padding-top: 40px;
