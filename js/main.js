@@ -13,3 +13,4 @@ $(document).ready(function(){
 		}); 
 	}
 });
+ReactDOM.render(React.createElement('span', null, 'I SEE REACT EVERYWHERE'), document.body);
