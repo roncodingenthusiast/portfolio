@@ -84,7 +84,8 @@
 			</div><!--end of landing-div-->
 			<div class="row" id="css-resume" style="background-color: black; font-family:  monospace, monospace;font-size:13px;">
 				<div id="rscss-intro" style="color: grey;">
-					&nbsp/**<br>
+					
+					<span id="special-id"></span>/**<br>
 					&nbsp * The Resume of the Coding Enthusiast<br>
 					&nbsp * <br>
 					&nbsp * Hey I am Ronald, an aspiring Software Engineer<br>
@@ -215,11 +216,29 @@
 		<script src="https://npmcdn.com/babel-core@5.8.38/browser.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-		<!--<script type="text/babel">
-			ReactDOM.render( 
-				<h1>First component</h1>,
-				document.getElementById('contactme')
-			);
-		</script>-->
+		<script type="text/babel">
+			class FourSpaces extends React.Component{
+				render(){
+					return (
+						<span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+					);
+				}
+			}
+			class TwoSpaces extends React.Component{
+				render(){
+					return (
+						<span>&nbsp;&nbsp;</span>
+					);
+				}	
+			}
+			class SingleSpace extends React.Component{
+				render(){
+					return(
+						<span>&nbsp;</span>
+					);
+				}
+			}	
+			ReactDOM.render(<SingleSpace />, document.getElementById('special-id'));
+		</script>
 </body>
 </html>
